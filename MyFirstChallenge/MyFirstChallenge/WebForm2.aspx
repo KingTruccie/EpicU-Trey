@@ -18,7 +18,7 @@
         <asp:TextBox ID="moneyTextBox" runat="server"></asp:TextBox>
         <br />
         <br />
-        <asp:Button ID="Button1" runat="server" Text="Click Me" />
+        <asp:Button ID="Button1" runat="server" Text="Click Me To See Your Fortune" />
         <br />
         <br />
         <asp:Label ID="resultLabel" runat="server"></asp:Label>
