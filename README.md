@@ -43,7 +43,7 @@ Arithmetic Operators (CS-ASP_009)
 
 = Is not Equality, it's assignment
 
-MAth Operators: + - * /
+Math Operators: + - * /
 
 Addition Assignment
 total = total + 5;
@@ -64,3 +64,26 @@ checked
 // that could potentially overflow
 }
 
+=========================================
+C# Syntax (CS-ASP_010)
+=========================================
+
+Operands - variable names, object / server control names, literals - "Nouns
+ (you name these)
+
+Operators - "Verbs" ... they act on the eperands.
+
+http://is.gd/operators
+
+Expressions - One or more operands 
+and zero or more operators that evaluate to a single value.
+
+http://is.gd/expressions
+
+Statements - A complete instruction - assignment of an expression to a variable, 
+an increment/ decrement, etc.
+
+http://is.gd/statement
+
+Statements must end in a semi-solon ;
+Whitespace is ignored (use for humans)
