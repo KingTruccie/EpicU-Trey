@@ -145,3 +145,55 @@ used to combine multiple expressions / evalution
 
 Combine with parenthesis ( ) for order of precendence
 
+
+=============================================
+Working with Dates and Times (CS-ASP_014)
+=============================================
+
+
+Creating new DateTime objects
+DateTime myDateTime = DateTime.Now;
+DateTime myDateTime = DateTime("4/21/1996");
+
+formating ... many options:
+myDateTime.To___()
+
+Retrieving Parts:
+myDateTime.Year // int
+myDateTime.Hour // int
+myDateTime.DayOfWeek // "Monday"
+myDateTime.DayOfYear // int 175
+
+DateTime Math:
+myDateTime.AddHour(3)
+myDateTime.AddMinute(-5)
+
+"Chaining" = using multiple helper methods
+together with the dot . operator
+myDateTime.AddHour(3).AddMinute(-5).ToString()
+
+
+==============================================
+Working With Spans of Time (CS-ASP_015)
+==============================================
+
+Create and initialize new TimeSpans
+
+//Days.Hours:Minutes:Seconds.Milliseconds
+TimeSpan myTimeSpan = TimeSpan.Parse("1.2:3:30.5");
+
+DateTime myBirthday = DateTime.Parse("4/21/1996");
+TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
+
+More info at http://is.gd/timespan
+
+Get individual parts
+myAge.Hours
+myAge.Seconds
+
+... or get TOTAL elapsed time as a double
+representing both the number of days/hours/etc.
+AND fractional values representing "left overs".
+
+myTimeSpan.TotalDays // double
+myTimeSpan.TotalHours // double
