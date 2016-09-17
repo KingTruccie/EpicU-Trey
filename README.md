@@ -106,4 +106,14 @@ else
 
 ... or ... evaluate other mutally exclusively options:
 
-if (
+if (a == b) { // some code}
+else if (a == c) {// some code}
+else if (a == d) { // some code}
+else {// catch all}
+
+Checkbox Server Control = Checked prop is bool
+
+RadioButton Server COntrol = GroupName prop groups
+them together, check prop is bool.
+
+
