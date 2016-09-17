@@ -145,3 +145,29 @@ used to combine multiple expressions / evalution
 
 Combine with parenthesis ( ) for order of precendence
 
+
+=============================================
+Working with Dates and Times (CS-ASP_014)
+=============================================
+
+
+Creating new DateTIme objects
+DateTime myDateTIme = DateTime.Now;
+DateTime myDateTime = DateTime("4/21/1996");
+
+formating ... many options:
+myDateTime.To___()
+
+Retrieving PArts:
+myDateTime.Year // int
+myDateTime.Hour // int
+myDateTime.DayOfWeek // "Monday"
+myDateTime.DayOfYear // int 175
+
+DateTime Math:
+myDateTime.AddHour(3)
+myDateTime.AddMinute(-5)
+
+"Chaining" = using multiple helper methods
+together with the dot . operator
+myDateTime.AddHour(3).AddMinute(-5).ToString()
