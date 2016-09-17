@@ -195,3 +195,5 @@ myAge.Seconds
 representing both the number of days/hours/etc.
 AND fractional values representing "left overs".
 
+myTimeSpan.TotalDays // double
+myTimeSpan.TotalHours // double
