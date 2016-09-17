@@ -128,8 +128,7 @@ result = (a == b) ? "Equal" : "Not Equal";
 Comparison and Logical Operator (CS-ASP_013)
 ============================================
 
-Comparison Operators
-used for conditional statements
+Comparison Operators used for conditional statements
 ==
 !=
 < >
