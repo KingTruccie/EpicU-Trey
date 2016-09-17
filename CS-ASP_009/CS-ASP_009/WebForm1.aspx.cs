@@ -18,7 +18,7 @@ namespace CS_ASP_009
             //int myInterger = 7;
 
             //double myResult = myDouble + myInterger;
-            //int myResult = (int)myDouble + myINterger;
+            //int myResult = (int)myDouble + myInterger;
             //int myResult = (double)myInterger / (double)myOtherInterger;
 
             //resultLabel.Text = myResult.ToString();

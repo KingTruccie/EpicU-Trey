@@ -14,13 +14,14 @@
         <p>First Value:
             <asp:TextBox ID="firstNum" runat="server"></asp:TextBox>
         </p>
-        <p>Second Value: <asp:TextBox ID="secondNum" runat="server"></asp:TextBox>
+        <p>Second Value:
+            <asp:TextBox ID="secondNum" runat="server"></asp:TextBox>
         </p>
         <p>
-            <asp:Button ID="Add" runat="server" OnClick="Add_Click" Text="+" />
-            <asp:Button ID="Subtract" runat="server" OnClick="Subtract_Click" Text="-" Width="21px" />
-            <asp:Button ID="Multiply" runat="server" OnClick="Multiply_Click" Text="*" Width="26px" />
-            <asp:Button ID="Divide" runat="server" OnClick="Divide_Click" Text="/" Width="26px" />
+            <asp:Button ID="Add" runat="server" BorderStyle="Inset" OnClick="Add_Click" Text="+" Width="22px" />
+&nbsp;<asp:Button ID="Subtract" runat="server" BorderStyle="Inset" OnClick="Subtract_Click" Text="-" Width="21px" />
+&nbsp;<asp:Button ID="Multiply" runat="server" BorderStyle="Inset" OnClick="Multiply_Click" Text="*" Width="26px" />
+&nbsp;<asp:Button ID="Divide" runat="server" BorderStyle="Inset" OnClick="Divide_Click" Text="/" Width="26px" />
         </p>
         <p>
             <asp:Label ID="resultLabel" runat="server"></asp:Label>

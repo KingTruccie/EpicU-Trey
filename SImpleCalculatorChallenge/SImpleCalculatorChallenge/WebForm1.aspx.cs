@@ -17,24 +17,31 @@ namespace SImpleCalculatorChallenge
 
         protected void Add_Click(object sender, EventArgs e)
         {
-            int myResult = ;
-          resultLabel.Text = myResult.ToString();
+            int Num;
+            Num = int.Parse(firstNum.Text) + int.Parse(secondNum.Text);
+            resultLabel.Text = Num.ToString();
 
         }
 
         protected void Subtract_Click(object sender, EventArgs e)
         {
-
+            int Num;
+            Num = int.Parse(firstNum.Text) - int.Parse(secondNum.Text);
+            resultLabel.Text = Num.ToString();
         }
 
         protected void Multiply_Click(object sender, EventArgs e)
         {
-
+            int Num;
+            Num = int.Parse(firstNum.Text) * int.Parse(secondNum.Text);
+            resultLabel.Text = Num.ToString();
         }
 
         protected void Divide_Click(object sender, EventArgs e)
         {
-
+            int Num;
+            Num = int.Parse(firstNum.Text) / int.Parse(secondNum.Text);
+            resultLabel.Text = Num.ToString();
         }
     }
 }
