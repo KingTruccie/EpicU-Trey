@@ -171,3 +171,27 @@ myDateTime.AddMinute(-5)
 "Chaining" = using multiple helper methods
 together with the dot . operator
 myDateTime.AddHour(3).AddMinute(-5).ToString()
+
+
+==============================================
+Working With Spans of Time (CS-ASP_015)
+==============================================
+
+Create and initialize new TimeSpans
+
+//Days.Hours:Minutes:Seconds.Milliseconds
+TimeSpan myTimeSpan = TimeSpan.Parse("1.2:3:30.5");
+
+DateTime myBirthday = DateTime.Parse("4/21/1996");
+TimeSpan myAge = DateTime.Now.Subtract(myBirthday);
+
+More info at http://is.gd/timespan
+
+Get individual parts
+myAge.Hours
+myAge.Seconds
+
+... or get TOTAL elapsed time as a double
+representing both the number of days/hours/etc.
+AND fractional values representing "left overs".
+
