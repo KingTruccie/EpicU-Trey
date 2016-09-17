@@ -151,14 +151,14 @@ Working with Dates and Times (CS-ASP_014)
 =============================================
 
 
-Creating new DateTIme objects
-DateTime myDateTIme = DateTime.Now;
+Creating new DateTime objects
+DateTime myDateTime = DateTime.Now;
 DateTime myDateTime = DateTime("4/21/1996");
 
 formating ... many options:
 myDateTime.To___()
 
-Retrieving PArts:
+Retrieving Parts:
 myDateTime.Year // int
 myDateTime.Hour // int
 myDateTime.DayOfWeek // "Monday"
