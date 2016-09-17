@@ -124,9 +124,11 @@ Shortcut for evaluating an expression and
 returning a result.
 result = (a == b) ? "Equal" : "Not Equal";
 
+
 ============================================
 Comparison and Logical Operator (CS-ASP_013)
 ============================================
+
 
 Comparison Operators used for conditional statements
 ==
