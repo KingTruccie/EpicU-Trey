@@ -87,3 +87,23 @@ http://is.gd/statement
 
 Statements must end in a semi-solon ;
 Whitespace is ignored (use for humans)
+
+===========================================
+Else, If, & Else If Statements (CS-ASP_011)
+===========================================
+
+
+== Equality
+
+if (a == b)
+{
+//execute when the expression is true
+}
+else
+{
+//executes when the expression is false
+}
+
+... or ... evaluate other mutally exclusively options:
+
+if (
