@@ -33,6 +33,5 @@ namespace Challenge_019
 
             resultLabel.Text = result;
         }
-
     }
 }

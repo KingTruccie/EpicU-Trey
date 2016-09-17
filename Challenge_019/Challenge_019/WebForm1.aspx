@@ -29,10 +29,10 @@
         <br />
         <br />
         <span class="auto-style1"><strong>End Date of Previous Assignment:</strong></span><br />
-        <asp:Calendar ID="prevCalendar" runat="server" Height="170px" Width="212px" OnSelectionChanged="prevCalendar_SelectionChanged" SelectedDate="2016-09-17" VisibleDate="2016-09-17"></asp:Calendar>
+        <asp:Calendar ID="prevCalendar" runat="server" Height="170px" Width="212px" OnSelectionChanged="prevCalendar_SelectionChanged" SelectedDate="2016-09-17"></asp:Calendar>
         <br />
         <span class="auto-style1"><strong>Start Date of New Assignment:</strong></span><br />
-        <asp:Calendar ID="assignStartCalendar" runat="server" Height="150px" Width="207px" SelectedDate="2016-10-01" VisibleDate="2016-10-01"></asp:Calendar>
+        <asp:Calendar ID="assignStartCalendar" runat="server" Height="150px" Width="207px" OnSelectionChanged="assignStartCalendar_SelectionChanged" SelectedDate="2016-10-01" VisibleDate="2016-10-01"></asp:Calendar>
         <br />
         <br />
         <span class="auto-style1"><strong>Projected End of Assignment:</strong></span><br />
